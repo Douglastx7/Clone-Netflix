@@ -35,10 +35,16 @@ export default ({ item }) => {
           </div>
           <div className="featured--description">{description}</div>
           <div className="featured--buttons">
-            <a href={`/watch/${item.id}`} className="featured--watchbutton">
+            <a
+              href="https://netflix7clone.netlify.app/"
+              className="featured--watchbutton"
+            >
               ▶ Assistir
             </a>
-            <a href={`/list/add/${item.id}`} className="featured--mylistbutton">
+            <a
+              href="https://www.douglasdeveloper.com/"
+              className="featured--mylistbutton"
+            >
               + Minha Lista
             </a>
           </div>
